@@ -1,5 +1,5 @@
 const nodemailer = require('nodemailer');
-const { PORT, EMAIL_ID, PASSWORD } = require('./server-config')
+const { EMAIL_ID, PASSWORD } = require('./server-config')
 
 const Sender = nodemailer.createTransport({
     host: 'smtp.Gmail.com',
